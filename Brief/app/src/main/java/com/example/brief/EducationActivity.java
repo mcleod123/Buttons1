@@ -15,6 +15,25 @@ public class EducationActivity extends AppCompatActivity {
         setContentView(R.layout.activity_education);
     }
 
+
+    @Override
+    // on back button pressed - close education activity
+    protected void onUserLeaveHint() {
+        onPause();
+        Intent intent = new Intent(EducationActivity.this, MainActivity.class);
+        startActivity(intent);
+        super.onUserLeaveHint();
+    }
+
+
+
+
+
+
+
+
+
+
     public void OnClick(View view) {
 
         switch(view.getId()){

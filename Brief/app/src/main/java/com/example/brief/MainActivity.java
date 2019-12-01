@@ -14,14 +14,20 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    /*
-    public void OnClick(View view) {
-        Intent intent = new Intent(MainActivity.this, EducationActivity.class);
-        startActivity(intent);
+    @Override
+    // on back button pressed - leave application
+    public void onBackPressed() {
+        // finish();
+
+        // сворачиваем приложение
+        Intent i = new Intent(Intent.ACTION_MAIN);
+        i.addCategory(Intent.CATEGORY_HOME);
+        i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(i);
+
     }
-    */
 
-
+    // on education button press - open education activity
     public void OnClick(View view) {
 
         switch(view.getId()){
