@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Summary by Artem Kazmin</string>
+    <string name="app_greeting">Hello everyone!</string>
+    <string name="app_education">My education</string>
+    <string name="app_education_text">Back in 2006, he graduated from the Faculty of Physics and Mathematics.
+        Then there were many years of teaching at school, working at the mine.\n\n
+All this time I learned to program, as I tried to take a moment to do this, no matter what I did.\n\n
+Gradually, it was time to learn how to make Android applications.
+Android development for beginners is not just reading books and watching videos. If you are learning a new concept,
+        you need to create trial applications based on these concepts.\n\n
+You need to understand the whole methodology for developing mobile applications,
+        as well as develop the necessary thinking - you need to remember that the resources of mobile phones are not unlimited.
+        Android application developers must take care of processor performance, memory size and battery.
+        If you make an application of poor quality, it will be deleted soon.\n\n
+Then try your hand at small local companies, where you will gain teamwork experience,
+        understand how applications are generally developed.
+And, of course, attend thematic events, listen to reports from professionals and get acquainted with other developers,
+        share experiences.
+Now everything is developing in general with regard to equipment and technologies, especially the game industry,
+        applications for Android, SEO promotion.\n\n
+At first I worked on freelance, did SEO, it turned out pretty well, I made good money.
+        Then my long way to the Android developer began. I had to sweat, a bunch of courses, video tutorials, practice,
+        but it’s not in vain. I am currently working in agriculture. She specializes in agricultural assets,
+        but I did not abandon Seo./n/n
+Back in 2006, he graduated from the Faculty of Physics and Mathematics.
+        Then there were many years of teaching at school, working at the mine.\n\n
+All this time I learned to program, as I tried to take a moment to do this, no matter what I did.\n\n
+Gradually, it was time to learn how to make Android applications.
+Android development for beginners is not just reading books and watching videos. If you are learning a new concept,
+        you need to create trial applications based on these concepts.\n\n
+You need to understand the whole methodology for developing mobile applications,
+        as well as develop the necessary thinking - you need to remember that the resources of mobile phones are not unlimited.
+        Android application developers must take care of processor performance, memory size and battery.
+        If you make an application of poor quality, it will be deleted soon.\n\n
+Then try your hand at small local companies, where you will gain teamwork experience,
+        understand how applications are generally developed.
+And, of course, attend thematic events, listen to reports from professionals and get acquainted with other developers,
+        share experiences.
+Now everything is developing in general with regard to equipment and technologies, especially the game industry,
+        applications for Android, SEO promotion.\n\n
+At first I worked on freelance, did SEO, it turned out pretty well, I made good money.
+        Then my long way to the Android developer began. I had to sweat, a bunch of courses, video tutorials, practice,
+        but it’s not in vain. I am currently working in agriculture. She specializes in agricultural assets,
+        but I did not abandon Seo.
+    </string>
+    <string name="app_back">Back</string>
+</resources>

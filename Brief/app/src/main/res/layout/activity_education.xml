@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EducationActivity">
+
+
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="5dp"
+    android:textAlignment="gravity"
+    android:background="@drawable/ic_main_bg_2"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="@string/app_education"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal|top"
+        android:textFontWeight="@android:integer/config_longAnimTime"
+        android:textColor="@color/colorHeaders"
+        android:textSize="16dp"
+        />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="90dp"
+        android:background="#fff"
+        android:outlineAmbientShadowColor="@color/colorAccent"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_education_text" />
+
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dip"
+        android:layout_gravity="center_horizontal|bottom"
+        android:padding="12dip"
+        android:background="@color/colorGrey"
+        android:textColor="@color/colorOnGreyBg"
+        android:text="@string/app_back"
+        android:onClick="OnClick"
+        android:clickable="true"
+        android:focusable="true"
+        />
+
+
+
+</FrameLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+

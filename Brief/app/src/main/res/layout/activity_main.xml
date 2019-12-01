@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="5dp"
+        android:textAlignment="gravity"
+        android:background="@drawable/ic_main_bg_2"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:text="@string/app_greeting"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            />
+
+        <ImageView
+            android:id="@+id/portraitImage"
+            android:layout_width="fill_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/ic_portrait"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center_vertical|center_horizontal"
+            />
+
+        <TextView
+            android:id="@+id/educationButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dip"
+            android:layout_gravity="center_horizontal|bottom"
+            android:padding="12dip"
+            android:background="@color/colorGrey"
+            android:textColor="@color/colorOnGreyBg"
+            android:text="@string/app_education"
+            android:onClick="OnClick"
+            android:clickable="true"
+            />
+
+
+
+
+    </FrameLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
