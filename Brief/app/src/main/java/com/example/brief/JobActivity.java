@@ -3,16 +3,15 @@ package com.example.brief;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-
 import androidx.appcompat.app.AppCompatActivity;
 
 
-public class EducationActivity extends AppCompatActivity {
+public class JobActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_education);
+        setContentView(R.layout.activity_job);
     }
 
 
@@ -20,7 +19,7 @@ public class EducationActivity extends AppCompatActivity {
     // on back button pressed - close education activity
     protected void onUserLeaveHint() {
         onPause();
-        Intent intent = new Intent(EducationActivity.this, MainActivity.class);
+        Intent intent = new Intent(JobActivity.this, MainActivity.class);
         startActivity(intent);
         super.onUserLeaveHint();
     }
@@ -30,15 +29,10 @@ public class EducationActivity extends AppCompatActivity {
 
         switch(view.getId()){
 
-            case R.id.backButton:
-                Intent intent = new Intent(EducationActivity.this, MainActivity.class);
+            case R.id.backButtonFromJob:
+                Intent intent = new Intent(JobActivity.this, MainActivity.class);
                 startActivity(intent);
                 break;
-            /*
-            case R.id.backButton:
-                // чето еще
-                break;
-            */
 
         }
     }

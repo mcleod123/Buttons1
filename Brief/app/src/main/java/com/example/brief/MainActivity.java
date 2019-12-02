@@ -39,12 +39,22 @@ public class MainActivity extends AppCompatActivity {
                 break;
 
             case R.id.exitButton:
-                // hide
-                Intent i = new Intent(Intent.ACTION_MAIN);
-                i.addCategory(Intent.CATEGORY_HOME);
-                i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                startActivity(i);
+                    // hide
+                    Intent i = new Intent(Intent.ACTION_MAIN);
+                    i.addCategory(Intent.CATEGORY_HOME);
+                    i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    startActivity(i);
                 break;
+
+            case R.id.jobButton:
+                    // hide
+                    Intent intentJob = new Intent(MainActivity.this, JobActivity.class);
+                    startActivity(intentJob);
+                break;
+
+            // jobButton
+
+            // portraitImage
 
 
         }

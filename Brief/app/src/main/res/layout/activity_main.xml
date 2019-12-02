@@ -8,21 +8,11 @@
     tools:context=".MainActivity">
 
 
-    <FrameLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:padding="5dp"
-        android:textAlignment="gravity"
-        android:background="@drawable/ic_main_bg_2"
-        >
-
-
-
-
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:textAlignment="gravity"
+            android:background="@drawable/ic_main_bg_2"
             >
 
             <Space
@@ -31,6 +21,8 @@
                 android:foregroundGravity="top"
                 />
 
+
+            // Face
             <ImageView
                 android:id="@+id/portraitImage"
                 android:layout_width="fill_parent"
@@ -41,12 +33,14 @@
                 android:layout_alignBottom="@id/greetingText"
                 android:layout_marginBottom="70dip"
                 android:paddingBottom="55dp"
+                android:clickable="true"
+                android:onClick="OnClick"
                 />
 
 
-
+            // Job Button
             <TextView
-                android:id="@+id/TextView04"
+                android:id="@+id/jobButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
@@ -54,13 +48,15 @@
                 android:background="#0f0"
                 android:gravity="center"
                 android:padding="12dip"
-                android:text="GREEN"
-                android:textColor="#000" >
+                android:text="@string/app_job_button_text"
+                android:textColor="#000"
+                android:clickable="true"
+                android:onClick="OnClick" >
             </TextView>
 
 
 
-
+            // Eduction Button
             <TextView
                 android:id="@+id/educationButton"
                 android:layout_width="wrap_content"
@@ -77,6 +73,7 @@
             </TextView>
 
 
+            // Exit Button
             <TextView
                 android:id="@+id/exitButton"
                 android:layout_width="wrap_content"
@@ -92,7 +89,7 @@
                 android:onClick="OnClick">
             </TextView>
 
-
+            // Greeting Text
             <TextView
                 android:id="@+id/greetingText"
                 android:layout_width="match_parent"
@@ -117,19 +114,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-    </FrameLayout>
 
 
 

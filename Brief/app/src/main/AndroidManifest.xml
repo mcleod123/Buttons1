@@ -25,6 +25,11 @@
             android:label="@string/app_education">
         </activity>
 
+        <activity
+            android:name=".JobActivity"
+            android:label="@string/app_job_title">
+        </activity>
+
     </application>
 
 </manifest>
