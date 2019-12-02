@@ -33,11 +33,13 @@ public class MainActivity extends AppCompatActivity {
 
         switch(view.getId()){
 
+            // go to education activity
             case R.id.educationButton:
                     Intent intent = new Intent(MainActivity.this, EducationActivity.class);
                     startActivity(intent);
                 break;
 
+            // hide app
             case R.id.exitButton:
                     // hide
                     Intent i = new Intent(Intent.ACTION_MAIN);
