@@ -7,4 +7,5 @@
     <color name="colorParagraph">#121115</color>
     <color name="colorOnGreyBg">#ffffff</color>
     <color name="colorGrey">#555555</color>
+    <color name="colorExitButton">#B40000</color>
 </resources>

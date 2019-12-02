@@ -16,37 +16,115 @@
         android:background="@drawable/ic_main_bg_2"
         >
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center|top"
-            android:text="@string/app_greeting"
-            android:textAlignment="center"
-            android:textSize="25dp"
-            />
 
-        <ImageView
-            android:id="@+id/portraitImage"
-            android:layout_width="fill_parent"
-            android:layout_height="300dp"
-            android:src="@drawable/ic_portrait"
-            android:scaleType="fitCenter"
-            android:layout_gravity="center_vertical|center_horizontal"
-            />
 
-        <TextView
-            android:id="@+id/educationButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="20dip"
-            android:layout_gravity="center_horizontal|bottom"
-            android:padding="12dip"
-            android:background="@color/colorGrey"
-            android:textColor="@color/colorOnGreyBg"
-            android:text="@string/app_education"
-            android:onClick="OnClick"
-            android:clickable="true"
-            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="gravity"
+            >
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:foregroundGravity="top"
+                />
+
+            <ImageView
+                android:id="@+id/portraitImage"
+                android:layout_width="fill_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/ic_portrait"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_alignBottom="@id/greetingText"
+                android:layout_marginBottom="70dip"
+                android:paddingBottom="55dp"
+                />
+
+
+
+            <TextView
+                android:id="@+id/TextView04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/educationButton"
+                android:background="#0f0"
+                android:gravity="center"
+                android:padding="12dip"
+                android:text="GREEN"
+                android:textColor="#000" >
+            </TextView>
+
+
+
+
+            <TextView
+                android:id="@+id/educationButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_margin="10dp"
+                android:background="@color/colorGrey"
+                android:gravity="center"
+                android:padding="12dip"
+                android:text="@string/app_education"
+                android:textColor="@color/colorOnGreyBg"
+                android:clickable="true"
+                android:onClick="OnClick" >
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/exitButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/educationButton"
+                android:background="@color/colorExitButton"
+                android:gravity="center"
+                android:padding="12dip"
+                android:text="@string/app_exit"
+                android:textColor="@color/colorOnGreyBg"
+                android:clickable="true"
+                android:onClick="OnClick">
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/greetingText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/exitButton"
+                android:layout_gravity="center|top"
+                android:layout_marginTop="65dp"
+                android:layout_marginBottom="20dp"
+                android:text="@string/app_greeting"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:foregroundGravity="bottom"
+                />
+
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
