@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Producer</string>
+    <string name="send_text_btn_text">Send</string>
+    <string name="header_text">Enter the text for send to other App</string>
+    <string name="toast_text_try_to_send">Try to send text to another App</string>
+    <string name="app_check_broadcast">In this field we have a value of broadcast if it exist</string>
+</resources>
