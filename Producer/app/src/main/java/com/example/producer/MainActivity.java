@@ -88,6 +88,7 @@ public class MainActivity extends AppCompatActivity {
                         // если строка не пустая
                         if(edit_text_array[i].trim().length() !=0 ) {
 
+                            // 1
                             // отправка широковещательного запроса с текстом и указанием, что это от продюсера
                             Intent intent = new Intent(
                                     "message_from_producer"
